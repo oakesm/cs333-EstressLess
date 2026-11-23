@@ -1,0 +1,21 @@
+{
+  "name": "cs333-api",
+  "version": "2026.1.0",
+  "private": true,
+  "description": "SOU CS 333 todo app back end (Express + MongoDB)",
+  "license": "UNLICENSED",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file=.env index.js",
+    "dev": "node --env-file=.env --watch index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^4.22.3",
+    "mongoose": "^9.12.2"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
